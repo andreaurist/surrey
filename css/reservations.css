@@ -1,0 +1,274 @@
+@CHARSET "UTF-8";
+
+.reservations-button {
+	display: block !important;
+	position: absolute;
+	z-index: 1;
+	right: 20px;
+	top: 50px;
+	width: auto;
+	height: 41px;
+	line-height: 41px;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	white-space: nowrap;
+	background: #953135;
+	color: #fff !important;
+	font-size: 18px;
+	text-transform: uppercase;	
+}
+.reservations-button a {
+	display: block;	
+}
+.reservations-button:hover {
+	color: #000 !important;	
+}
+.reservations-box-wrapper .row-wrapper{
+	padding-left: 14px;
+	padding-top: 14px;
+	position: relative;
+	text-align: left;	
+}
+
+.reservations-box-wrapper .date-pick{
+	height: 21px;
+	width: 240px;
+	padding: 0;
+	border: none;
+	background: #fff;
+	text-align: center;
+}
+
+.reservations-box-wrapper .people-number{
+	height: 21px;
+	width: 26px;
+	padding: 0;
+	border: none;
+	background: #fff;
+	text-align: center;
+}
+
+.reservations-box-wrapper #promo{
+	width: 115px;
+}
+
+.reservations-box-wrapper .cap{
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 21px;
+	line-height: 21px;	
+	font-size: 10px;
+}
+
+.reservations-box-wrapper .cap, .reservations-box-wrapper .cap *{
+	color: #fff;
+	text-transform: uppercase;
+} 
+
+.reservations-box-wrapper .cap-options{
+	position: absolute;
+	z-index: 1;
+	top: 14px;
+	right: 0px;
+	width: 70px;	
+	line-height: 1;
+	text-align: left;
+}
+
+.reservations-box-wrapper .datepick-trigger{
+	vertical-align: top;
+	margin-left: 13px;
+}
+
+
+.reservations-box-wrapper {
+position: fixed;
+z-index: 9999;
+right: 8px;
+top: 112px;
+width: 298px;
+height: auto;
+background: #953135;
+display: none;
+}
+
+.reservations-box-inner {
+	/*position: absolute;
+	z-index: 1;
+	left: 20px;
+	top: 7px;
+	right: 20px;
+	bottom: 10px;
+	overflow: hidden;
+	*/
+}
+
+.reservations-box-inner-1 {
+	position: absolute;
+	z-index: 1;
+	left: 10px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	overflow: hidden;
+}
+
+.reservations-box-image {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	top: 48px;
+	width: 196px;
+	height: auto;
+}
+
+.reservations-box-content {
+	padding: 10px;
+	font-size: 13px;
+	position: absolute;
+	z-index: 1;
+	left: 207px;
+	right: 0px;
+	top: 36px;
+	bottom: 40px;
+	overflow: auto;
+}
+
+.reservations-box-text{
+	font-weight: normal;
+	font-size: 10px;
+	color: #fff;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.reservations-box-text *{
+	color: #fff;
+}
+
+.reservations-box-title {
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 5px solid #000;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: normal;
+	overflow: hidden;
+	font-size: 23px;
+}
+
+.reservations-box-text {
+	margin-top: 5px;
+}
+
+.reservations-box-wrapper #submit1 {
+	display: block;
+	width: 270px;
+	margin: 0 auto;
+	background: #333 !important;
+	text-align: center;
+	text-transform: uppercase;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	color: #fff;
+}
+
+
+
+.reservations-box-wrapper select {
+	background: none !important;	
+	border: none;
+}
+
+.reservations-box-wrapper table {
+	width: 200px;
+	margin: 0 auto;
+	background: #000 url(../images/reservations-box-bg1.jpg) repeat-x;
+}
+
+.reservations-box-wrapper table td {	
+	text-align: left;
+	padding-left: 5px !important;
+}
+
+.reservations-box-wrapper table * {
+	line-height: 1;
+	color: #0caaa4;
+}
+
+.reservations-box-wrapper #startDate {
+	border: none;
+	height: inherit;
+	padding-left: 4px;
+	padding-right: 4px;
+	background: none !important;
+}
+
+.reservations-box-wrapper table .cap {
+	font-size: 13px;
+}
+
+.reservations-box-wrapper table .cap-submit a,.reservations-box-wrapper table .cap-submit a:link
+	{
+	font-size: 18px;
+}
+
+.reservations-box-close-btn {
+	background: url(../images/bottom-bg.png?3);
+	cursor: pointer;
+}
+
+.reservations-box-close-btn,.reservations-box-close-btn ul {
+	position: absolute;
+	z-index: 1;
+	width: 22px;
+	right: -25px;
+	top: 0px;
+	bottom: 0px;
+}
+
+.reservations-box-close-btn ul {
+	left: 0;
+	right: 0;
+	top: 0px;
+	bottom: 0px;
+}
+
+.reservations-box-close-btn ul li {
+	text-align: center;
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 17px;
+}
+
+.reservations-box-wrapper table td input, .reservations-box-wrapper table td select{
+	width: 100px !important;
+} 
+
+
+.reservations-box-wrapper table tr.sep td{
+	padding-top: 0;
+	padding-bottom: 0;
+	
+}
+.reservations-box-wrapper table tr.sep td div{
+	height: 2px;
+	background: #1f403e;  
+}
+
+/**/
+
+.reservations-box-wrapper .row-wrapper-1, .reservations-box-wrapper .row-wrapper-2{
+	padding-left: 40px; 
+}
+
+.reservations-box-wrapper .row-wrapper-1 .cap{
+	width: 39px; 
+}
+
+
