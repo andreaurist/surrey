@@ -61,6 +61,11 @@
 	}
 }
 @media screen and (max-width: 1400px) {
+	.top-navigation-wrapper ul {
+		position: absolute;
+		top: 85px;
+		left: 20px;
+	}
 	.top-navigation-wrapper ul li{
 		position: relative;
 		top: 0px;
@@ -74,7 +79,8 @@
 	}
 	.top-navigation-wrapper ul li .globe {
 		position: relative;
-		top: 6px;
+		/*top: 6px;*/
+		top: -67px;
 		left: -15px;
 	}
 	.top-navigation-wrapper .lang-ul-li {
